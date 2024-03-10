@@ -1,0 +1,122 @@
+p{
+    font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 8;
+    font-style: normal;
+    color: rgb(255, 255, 255);
+}
+h1{
+  font-family: "Outfit", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 100;
+  font-size: 64;
+  font-style: normal;
+  color: rgb(255, 255, 255);
+}
+.separator {margin: 40px;}
+.banner {
+    background-image:url("back.png");
+    background-position: center;
+    background-position-x: left;
+    background-repeat: no-repeat;
+    background-color: #181414;
+    border-radius: 16px;
+    transition: 0.3s;
+    box-shadow: 0px 0px 0px rgba(0, 0, 0, 0)
+}
+.banner:hover{
+    border-radius: 4px;
+    box-shadow: 0px 7px 25px rgba(0, 0, 0, 0.299)
+}
+.logo__upperbar {
+    height: 62px;
+    display: block;
+}
+body{
+    margin: 15;
+    margin-top: 0;
+    padding: 0;
+    background-color: rgb(49, 49, 49);
+}
+.banner h1 {
+    text-align: right;
+    display:block;
+    padding: 40px;
+    margin: 0;
+}
+.banner p {
+    text-align: right;
+    margin-bottom: 1;
+    display: block;    
+    padding: 40px;
+}
+.upperbar {
+    position: fixed;
+    margin: 32px;
+    margin-top: -45;
+    padding-right: 100%;
+    background-color: rgb(0, 0, 0);
+    width:max-content;
+    display: inline-flex;
+    top: 45px;
+}
+.upperbar p{
+    margin: auto;
+    padding: 0;
+    color: rgb(255, 255, 255);
+    padding: 2;
+
+    font-size: 28;
+    
+}
+.title_s{transition: 0.5s;}
+.title_s:hover{font-weight: 800;}
+.text {
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+}
+body .upperbar {
+    margin-left: -16px;
+    
+}
+.badge1,.badge2,.badge3 {
+    width: 128px;
+    transition: 0.3s;
+    box-shadow: 0px 0px 0px rgba(0, 137, 250, 0);
+    border-radius: 4px;
+    margin: 2px;
+}
+.badge1:hover{
+    width: 150px;
+    box-shadow: 0px 7px 25px rgba(2, 213, 255, 0.491);
+    margin: 8px;
+}
+.badge2:hover{
+    width: 150px;
+    box-shadow: 0px 7px 25px rgba(255, 213, 2, 0.491);
+    margin: 8px;
+}
+.badge3:hover{
+    width: 150px;
+    box-shadow: 0px 7px 25px rgba(2, 53, 255, 0.491);
+    margin: 8px;
+}
+.footer{
+    display: inline;
+    align-items: center;
+}
+footer {
+    background-color: #0e0e0e;
+    min-height:50px;
+    display:flex;
+    justify-content: center;
+    border-radius: 16px;
+}
+.footer{text-align: center;}
+p .footer footer {
+    height: 100%;
+    
+}
+body{ min-height: 100vh;  }
+body{ display:flex; flex-direction:column; }
+article{ flex:1; }
