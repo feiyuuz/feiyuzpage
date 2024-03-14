@@ -13,7 +13,9 @@ h1{
   font-style: normal;
   color: rgb(255, 255, 255);
 }
+/*ill delete separator when i found a way to fix this*/
 .separator {margin: 40px;}
+/* Banner */
 .banner {
     background-image:url("back.png");
     background-position: center;
@@ -75,10 +77,7 @@ body{
     color: rgb(255, 255, 255);
     font-size: 16px;
 }
-body .upperbar {
-    margin-left: -16px;
-    
-}
+body .upperbar {margin-left: -16px;}
 .badge1,.badge2,.badge3 {
     width: 128px;
     transition: 0.3s;
@@ -113,10 +112,7 @@ footer {
     border-radius: 16px;
 }
 .footer{text-align: center;}
-p .footer footer {
-    height: 100%;
-    
-}
+p .footer footer {height: 100%;}
 body{ min-height: 100vh;  }
 body{ display:flex; flex-direction:column; }
 article{ flex:1; }
